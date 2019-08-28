@@ -1,2 +1,6 @@
 # bisexualitystudy
-SPSS syntax for bisexuality study, plus individual practice exercises using R
+SPSS syntax for study, plus individual practice exercises using R
+
+Dark Triad Traits among Bisexual Women: 
+Mediating Links with Sociosexuality as Revealed across 
+7 World Regions of the International Sexuality Description Project-2 
