@@ -20,7 +20,7 @@ data %>%
            w.region %in% c("North America", "Central/South America", "North/West Europe",
                            "South/East Europe", "Middle East/Africa", "South/Southeast Asia", "East Asia")) %>%
   mutate(w.region = reorder(w.region, SRP.TOT, FUN = median)) %>%
-  ggplot() +
+  ggplot() + theme_classic() +
   theme(axis.text.x = element_text (angle = 90, hjust = 1)) +
   xlab("") + ylab("Total Psychopathy Score") + labs(fill = "Sexual Orientation") + 
   ggtitle("Psychopathy scores for women across world regions based on sexual orientation") + 
